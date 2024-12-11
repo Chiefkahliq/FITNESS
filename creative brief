@@ -1,0 +1,120 @@
+creative brief
+
+Fitness App Documentation
+Author: Carl Williams
+GitHub Repository: https://github.com/Chiefkahliq/FITNESS
+User Stories (System Requirements)
+As a New User:
+- I want to register for an account so I can access the fitness resources.
+As a Returning User:
+- I want to log in so I can view the available workout plans, diet options, and meal plans easily.
+As a Registered User:
+- I want to see three workout plans so I can select an exercise routine that suits my goals.
+- I want to see three diet options so I can pick a dietary approach aligned with my needs.
+- I want to see three meal plans (breakfast, lunch, dinner) to have a simple guide for daily eating.
+Prototype User Manual
+Introduction
+This prototype Fitness App allows users to register, log in, and view basic fitness resources. It serves as the foundation for a future, more feature-rich capstone project.
+System Requirements
+- Python 3.7 or higher
+- A web browser (Chrome, Firefox, etc.)
+- Dependencies listed in requirements.txt (Flask, Flask-SQLAlchemy, Flask-WTF)
+Installation Instructions
+1. Clone the Repository:
+
+git clone https://github.com/Chiefkahliq/FITNESS.git
+cd FITNESS
+
+
+2. (Optional) Create a Virtual Environment:
+
+python3 -m venv venv
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+
+
+3. Install Dependencies:
+pip install -r requirements.txt
+4. Initialize the Database:
+
+python
+
+Inside the Python interpreter:
+
+from app import db
+db.create_all()
+exit()
+
+
+5. Run the Application:
+
+python app.py
+
+Open http://127.0.0.1:5000/ in your web browser.
+
+
+Usage Instructions
+Register an Account:
+- Navigate to http://127.0.0.1:5000/register
+- Enter a username and password
+- Click “Register”
+You will be redirected to the login page after successful registration.
+Log In:
+- Go to http://127.0.0.1:5000/login
+- Enter your username and password
+- Click “Login”
+On success, you are taken to the dashboard.
+Viewing Workout Plans:
+- After logging in, the dashboard displays three workout plans (e.g., Cardio, Strength, Flexibility).
+Viewing Diet Options:
+- Below the workout plans, three diet options are listed with brief descriptions.
+Viewing Meal Plans:
+- Further down, three meal plans (Breakfast, Lunch, Dinner) are provided.
+Troubleshooting
+- If you cannot register, ensure the username is unique.
+- If login fails, verify username and password correctness.
+- If no data appears, ensure db.create_all() was run and that the server is running properly.
+Future Enhancements
+- Password reset functionality
+- Personalized workout and diet recommendations
+- Integration with mobile apps and online booking
+Creative Brief
+
+Project Name: Fitness App Development
+
+Objective: To create an innovative fitness application that enables users to register, log in, and access personalized workout plans, diet options, and meal plans, serving as a foundation for a comprehensive capstone project.
+
+Target Audience: Individuals seeking structured fitness guidance, including beginners and fitness enthusiasts aiming to achieve specific health goals.
+
+Key Features:
+- User registration and authentication
+- Access to multiple workout plans
+- Dietary options and meal planning
+- User-friendly interface
+
+Tone and Style: Professional, supportive, and motivational, encouraging users to engage consistently with their fitness journey.
+
+Deliverables: A functional prototype of the fitness app with core features implemented, accompanied by comprehensive documentation.
+
+Success Metrics:
+- User engagement rates
+- User feedback and satisfaction
+- Achievement of user-defined fitness goals
+
+Stakeholders: Project manager, development team, UI/UX designers, and end-users.
+
+Distribution Channels: Available on web browsers; future plans include deployment on iOS and Android platforms.
+
+
+Enhanced Future Enhancements
+
+- Neural Interface Integration: Developing technology that allows users to control the app and receive feedback through neural impulses, creating a seamless mind-body fitness experience.
+- DNA-Based Personalized Training: Utilizing genetic information to tailor workout and nutrition plans that align with an individual's unique genetic makeup, optimizing results.
+- Holographic Personal Trainers: Implementing holographic technology to project virtual trainers into the user's environment, providing real-time guidance and motivation.
+- Quantum Computing for Predictive Analytics: Leveraging quantum computing to analyze vast datasets and predict the most effective fitness strategies for individual users, staying ahead of emerging health trends.
+
+These visionary enhancements aim to position the fitness app at the forefront of technological innovation, offering unparalleled user experiences and setting new standards in the fitness industry.
+
+Note: The implementation of these advanced features will require extensive research and development, adherence to ethical guidelines, and compliance with privacy regulations.
