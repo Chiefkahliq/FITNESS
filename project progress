@@ -1,0 +1,18 @@
+Project Progress - Fitness App
+Over the last two weeks, our team has been making significant progress on the Fitness App. Some key updates include:
+
+Implementing AI-based coaching for workout recommendations.
+Enhancing the UI/UX for better user interaction.
+Working on database management to store user activity and workout history.
+Debugging API key issues related to AI integration, which sometimes resets due to updates or incorrect storage handling.
+Challenges & Next Steps
+One ongoing issue is that the AI key frequently resets, requiring manual updates. We are working on:
+
+Exploring secure storage methods for API keys to prevent frequent resets.
+Automating key renewal with token refresh mechanisms.
+Implementing error handling to detect when the AI service is unreachable and prompt for action.
+Next, we will focus on:
+
+Completing AI model training for customized workouts.
+Integrating real-time analytics to track user progress.
+Finalizing mobile app deployment.
